@@ -1,0 +1,253 @@
+:root {
+  --active-color: #404bbf;
+  --title-color: #2e2f42;
+  --button-color: #f4f4fd;
+  --p-color: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+/**----------------INDEX-------------**/
+
+.hero-start {
+  background-color: #2e2f42;
+  text-align: center;
+}
+.hero-start-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-start-butoon {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-start-butoon:hover {
+  background-color: #404bbf;
+}
+
+.hero-start-butoon:focus {
+  background-color: #404bbf;
+}
+/**----------------INDEX-Benefits---------------**/
+.benefits {
+}
+.benefits-title {
+}
+
+.benefits-list-item {
+}
+.benefits-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.benefits-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**---------------INDEX-PRODUCT--------------**/
+.product {
+}
+.product-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.product-list-item {
+}
+.product-list-img {
+}
+
+/**----------------TEAM---------------**/
+
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.team-list {
+  background-color: #ffffff;
+}
+
+.team-list-img {
+}
+.team-list-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.team-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/**----------------HEADER-------------**/
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-logo span {
+  color: #2e2f42;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.header-menu-link:is(:hover, :focus) {
+  color: var(--active-color);
+}
+
+.header-address {
+  font-style: normal;
+}
+.header-address-list {
+  list-style-type: none;
+}
+.header-address-item {
+}
+.header-address-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-address-link:is(:hover, :focus) {
+  color: var(--active-color);
+}
+/**----------------PORTFOLIO-HERO-------------**/
+.hero {
+}
+
+.hero-menu-item {
+  list-style-type: none;
+}
+.hero-menu-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+  background-color: var(--button-color);
+}
+
+.hero-menu-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  flex: none;
+}
+
+.hero-menu-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  flex: none;
+}
+
+/**------------------PORTFOLIO-HERO-PRODUCTS---------------**/
+
+.hero-products {
+}
+.hero-products-menu {
+  list-style-type: none;
+}
+.hero-products-item {
+}
+.hero-products-img {
+}
+.hero-products-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.hero-products-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--p-color);
+}
+
+.hero-prod {
+}
+
+/**-----------FOOTER---------**/
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+.footer-logo span {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
