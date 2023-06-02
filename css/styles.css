@@ -3,6 +3,7 @@
   --title-color: #2e2f42;
   --button-color: #f4f4fd;
   --p-color: #434455;
+  --button-main-color: #4d5ae5;
 }
 
 body {
@@ -19,6 +20,19 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 ul {
@@ -44,9 +58,14 @@ img {
 }
 /**----------------INDEX-------------**/
 
+.hero-start-container {
+}
+
 .hero-start {
   background-color: #2e2f42;
   text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-start-title {
   font-weight: 700;
@@ -54,6 +73,9 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-start-butoon {
   font-family: "Roboto", sans-serif;
@@ -65,6 +87,13 @@ img {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--button-main-color);
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 .hero-start-butoon:hover {
@@ -76,11 +105,15 @@ img {
 }
 /**----------------INDEX-Benefits---------------**/
 .benefits {
+  padding: 120px 0;
 }
-.benefits-title {
+.benefits-list {
+  display: flex;
+  gap: 24px;
 }
 
 .benefits-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .benefits-item-title {
   font-weight: 500;
@@ -88,6 +121,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-bottom: 8px;
 }
 .benefits-item-text {
   font-size: 16px;
@@ -297,10 +331,14 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo span {
   color: #f4f4fd;
@@ -310,4 +348,5 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
