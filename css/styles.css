@@ -194,6 +194,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:is(:hover, :focus) {
@@ -203,11 +205,14 @@ img {
 .header-address {
   font-style: normal;
   display: flex;
+  margin-left: auto;
 }
 .header-address-list {
   list-style-type: none;
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-address-item {
 }
